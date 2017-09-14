@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+		<title>eŠkolica | Kviz</title>	
+
+		<meta name="keywords" content="eŠkolica" />
+		<meta name="description" content="Kviz">
+		<meta name="author" content="Renata Balić">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="vendor/animate/animate.min.css">
+		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
+
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skins/skin-medical.css"> 
+
+		<!-- Demo CSS -->
+		<link rel="stylesheet" href="css/demos/demo-medical.css">
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.min.js"></script>
+		<!-- kviz -->
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	
+	</head>
+	<body>
+
+		<div class="body">
+			<header id="header" class="header-narrow" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 35, 'stickySetTop': '-35px', 'stickyChangeLogo': false}">
+				<div class="header-body">
+					<div class="header-top header-top header-top-style-3 header-top-custom">
+						<div class="container">
+							<nav class="header-nav-top pull-right">
+								<ul class="nav nav-pills">
+									<li class="hidden-xs">
+										<span class="ws-nowrap"><i class="icon-location-pin icons"></i> Kišpatićeva ulica 12, 10000 Zagreb</span>
+									</li>
+									<li class="hidden-xs">
+										<span class="ws-nowrap"><i class="icon-envelope-open icons"></i> <a class="text-decoration-none" href="renata.balic@kbc-zagreb.hr">renata.balic@kbc-zagreb.hr</a></span>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-logo">
+									<a href="index.html">
+										<img alt="eSkolica" width="143" height="40" src="img/demos/medical/logo-medical.png">
+									</a>
+								</div>
+							</div>
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-nav pt-xs">
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
+											<i class="fa fa-bars"></i>
+										</button>
+										<div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+											<nav>
+												<ul class="nav nav-pills" id="mainNav">
+													<li class="dropdown-secondary dropdown-full-color">
+														<a href="index.html">
+															Početna
+														</a>
+													</li>
+													<li class="dropdown dropdown-full-color dropdown-secondary">
+														<a class="dropdown-toggle" href="vrste-peritonejske-dijalize.html">
+															Vrste PD
+														</a>
+														<ul class="dropdown-menu">
+															<li><a href="capd.html">CAPD</a></li>
+															<li><a href="apd.html">APD</a></li>
+														</ul>
+													</li>
+													<li class="dropdown dropdown-full-color dropdown-secondary">
+														<a class="dropdown-toggle" href="edukacija-pd.html">
+															Edukacija
+														</a>
+														<ul class="dropdown-menu">
+															<li><a href="peritonejski-kateter.html">Peritonejski kateter</a></li>
+															<li><a href="otopine-za-pd.html">Otopine za PD</a></li>
+															<li><a href="i-p-terapija.html">i.p. terapija</a></li>
+															<li><a href="balans-tekucine.html">balans tekućine i vaganje bolesnika</a></li>
+														</ul>
+													</li>
+													<li class="dropdown dropdown-full-color dropdown-secondary">
+															<a class="dropdown-toggle" href="testovi-adekvatnosti.html">
+															Testovi adekvatnosti
+														</a>
+														<ul class="dropdown-menu">
+															<li><a href="pet.html">PE test (PET)</a></li>
+															<li><a href="24satno.html">24-satno skupljanje dijalizata i urina</a></li>
+															<li><a href="ktv.html">Kt/V i klirens kreatinina – tjedni</a></li>
+															<li><a href="pft.html">PF test (PFT)</a></li>
+														</ul>
+													</li>
+													<li class="dropdown dropdown-full-color dropdown-secondary">
+														<a class="dropdown-toggle" href="#">
+															Komplikacije PD
+														</a>
+														<ul class="dropdown-menu">
+															<li><a href="kupalne.html">Upalne komplikacije</a></li>
+															<li><a href="kmehanicke.html">Mehaničke komplikacije</a></li>
+														</ul>
+													</li>
+													<li class="activedropdown-full-color dropdown-secondary">
+														<a href="kviz.html">
+															Kviz
+														</a>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a href="kontakt.html">
+															Kontakt
+														</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div role="main" class="main">
+				
+			<section class="page-header page-header-color page-header-primary page-header-float-breadcrumb">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="mt-xs">Kviz <span>Peritonejske dijalize</span></h1>
+							<ul class="breadcrumb breadcrumb-valign-mid">
+								<li><a href="#">Početna</a></li>
+								<li class="active">Kviz</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="container">
+			<section>
+					<article>
+				<form class="contactForm" name="contact" id="contact">
+					<label for="name">Ime i prezime</label>
+					<input type="text" name="fullname" id="name" placeholder="npr; Ana Horvat" required>
+					<label for="address">Evidencijski broj</label>
+					<input type="text" name="address" id="address" placeholder="npr; " required>
+					<input type="submit" id="submit" name="submit" value="Start">
+				</form>
+			</article>
+			<article>
+				<form class="questionForm" id="q1" data-question="1">
+					<h3>1. CAPD je skraćenica od:</h3>
+					<ul>
+						<li><input name="q1" type="radio" value="a" />Kontinuirana ambulantna peritonejska dijaliza</li>
+						<li><input name="q1" type="radio" value="b" />Kontinuirana ambulatorna peritonejska dijaliza</li>
+						<li><input name="q1" type="radio" value="c" />Kontinuirana automatska peritonejska dijaliza</li>
+						<li><input name="q1" type="radio" value="d" />Niti jedno od navedenog</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q2" data-question="2">
+					<h3>2. APD je skraćenica od:</h3>
+					<ul>
+						<li><input name="q2" type="radio" value="a" />Automatizirana peritonejska dijaliza</li>
+						<li><input name="q2" type="radio" value="b" />Automatska peritonejska dijaliza</li>
+						<li><input name="q2" type="radio" value="c" />Ambulatorna peritonejska dijaliza</li>
+						<li><input name="q2" type="radio" value="d" />Niti jedno od navedenog</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q3" data-question="3">
+					<h3>3. Ciklus kod APD, se sastoji od:</h3>
+					<ul>
+						<li><input name="q3" type="radio" value="a" />utoka</li>
+						<li><input name="q3" type="radio" value="b" />dwell-a</li>
+						<li><input name="q3" type="radio" value="c" />istoka</li>
+						<li><input name="q3" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q4" data-question="4">
+					<h3>4. Izbaci „uljeza“:</h3>
+					<ul>
+						<li><input name="q4" type="radio" value="a" />Kontinuirana ambulantna peritonejska dijaliza</li>
+						<li><input name="q4" type="radio" value="b" />Kontinuirana ciklična peritonejska dijaliza</li>
+						<li><input name="q4" type="radio" value="c" />Tidal PD</li>
+						<li><input name="q4" type="radio" value="d" />Noćna intermitentna peritonejska dijaliza</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q5" data-question="5">
+					<h3>5. „suhi dan“ znači:</h3>
+					<ul>
+						<li><input name="q5" type="radio" value="a" />bolesnik ne mokri preko dana</li>
+						<li><input name="q5" type="radio" value="b" />bolesnik ne smije piti tekućinu preko dana</li>
+						<li><input name="q5" type="radio" value="c" />bolesnik ne utače otopinu u peritonej preko noći</li>
+						<li><input name="q5" type="radio" value="d" />bolesnik ne utače otopinu u peritonej preko dana</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q6" data-question="6">
+					<h3>6. CAPD izmjena se sastoji od:</h3>
+					<ul>
+						<li><input name="q6" type="radio" value="a" />istok</li>
+						<li><input name="q6" type="radio" value="b" />ispiranje</li>
+						<li><input name="q6" type="radio" value="c" />utok</li>
+						<li><input name="q6" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q7" data-question="7">
+					<h3>7. Prostorija za skladištenje otopina mora biti: </h3>
+					<ul>
+						<li><input name="q7" type="radio" value="a" />čista, suha i prozračna</li>
+						<li><input name="q7" type="radio" value="b" />čista, suha i prozračna</li>
+						<li><input name="q7" type="radio" value="c" />temperatura prostorije do 25o C</li>
+						<li><input name="q7" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q8" data-question="8">
+					<h3>8. Prije pristupanju postupcima peritonejske dijalize treba:</h3>
+					<ul>
+						<li><input name="q8" type="radio" value="a" />ugasiti svjetlo</li>
+						<li><input name="q8" type="radio" value="b" />ugasiti klima uređaj</li>
+						<li><input name="q8" type="radio" value="c" />upaliti TV</li>
+						<li><input name="q8" type="radio" value="d" />pripremiti časopise</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q9" data-question="9">
+					<h3>9. Prije pristupanju postupcima peritonejske dijalize, ruke se trebaju:</h3>
+					<ul>
+						<li><input name="q9" type="radio" value="a" />osušiti fenom</li>
+						<li><input name="q9" type="radio" value="b" />oprati u alkoholu</li>
+						<li><input name="q9" type="radio" value="c" />oprati običnim sapunom</li>
+						<li><input name="q9" type="radio" value="d" />oprati tekućim sapunom</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q10" data-question="10">
+					<h3>10. Za brisanje ruku, koristi se:</h3>
+					<ul>
+						<li><input name="q10" type="radio" value="a" />ništa, samo se njima maše, da se osuše</li>
+						<li><input name="q10" type="radio" value="b" />obrišu se od odjeću</li>
+						<li><input name="q10" type="radio" value="c" />obrišu se jednokratnim ručnikom</li>
+						<li><input name="q10" type="radio" value="d" />obrišu se običnim ručnikom</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q11" data-question="11">
+					<h3>11. Pri postupcima PD, masku koristimo:</h3>
+					<ul>
+						<li><input name="q11" type="radio" value="a" />da bi uplašili susjede prije izmjene</li>
+						<li><input name="q11" type="radio" value="b" />da se zaštitimo od klica</li>
+						<li><input name="q11" type="radio" value="c" />da spriječimo mikroorganizme, od ulaska u peritonej</li>
+						<li><input name="q11" type="radio" value="d" />ništa od navedenog</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q12" data-question="12">
+					<h3>12. Prije postupaka PD, na otopini provjeravamo:</h3>
+					<ul>
+						<li><input name="q12" type="radio" value="a" />rok trajanja</li>
+						<li><input name="q12" type="radio" value="b" />da je vanjski omot neoštećen</li>
+						<li><input name="q12" type="radio" value="c" />vrstu otopine</li>
+						<li><input name="q12" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q13" data-question="13">
+					<h3>13. Ako je otopini ili materijalu za PD prošao rok trajanja, tada ćete:</h3>
+					<ul>
+						<li><input name="q13" type="radio" value="a" />koristiti još 6 mjeseci, pa baciti</li>
+						<li><input name="q13" type="radio" value="b" />ne koristiti otopinu</li>
+						<li><input name="q13" type="radio" value="c" />vratiti proizvođaču</li>
+						<li><input name="q13" type="radio" value="d" />ništa od navedenog</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q14" data-question="14">
+					<h3>14. Kod CAPD, otopinu treba zagrijati zato:</h3>
+					<ul>
+						<li><input name="q14" type="radio" value="a" />da bude topla</li>
+						<li><input name="q14" type="radio" value="b" />jer utakanjem tople otopine odmah započinju procesi dijalize</li>
+						<li><input name="q14" type="radio" value="c" />jer je bolesniku odmah toplije</li>
+						<li><input name="q14" type="radio" value="d" />jer tako mislite da treba</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q15" data-question="15">
+					<h3>15. Neposredno prije priključenja i isključenja treba:</h3>
+					<ul>
+						<li><input name="q15" type="radio" value="a" />dezinficirati ruke</li>
+						<li><input name="q15" type="radio" value="b" />uključiti mobitel</li>
+						<li><input name="q15" type="radio" value="c" />otvoriti prozore</li>
+						<li><input name="q15" type="radio" value="d" />uključiti klima uređaj</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q16" data-question="16">
+					<h3>16. Jodna kapica koristi se:</h3>
+					<ul>
+						<li><input name="q16" type="radio" value="a" />jednokratno</li>
+						<li><input name="q16" type="radio" value="b" />višekratno</li>
+						<li><input name="q16" type="radio" value="c" />samo u slučaju zamućenja dijalizata </li>
+						<li><input name="q16" type="radio" value="d" />uopće se ne treba koristiti</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q17" data-question="17">
+					<h3>17. Bistrinu dijalizata provjeravamo:</h3>
+					<ul>
+						<li><input name="q17" type="radio" value="a" />poslije ispiranja</li>
+						<li><input name="q17" type="radio" value="b" />poslije utoka</li>
+						<li><input name="q17" type="radio" value="c" />poslije isključenja</li>
+						<li><input name="q17" type="radio" value="d" />pri istjecanju dijalizata</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q18" data-question="18">
+					<h3>18. Kada u bolesnika utočimo 1500 ml, a pri slijedećoj izmjeni istok bude 1400 ml, UF je:</h3>
+					<ul>
+						<li><input name="q18" type="radio" value="a" />+ 100 ml</li>
+						<li><input name="q18" type="radio" value="b" />– 100 ml</li>
+						<li><input name="q18" type="radio" value="c" />0 ml</li>
+						<li><input name="q18" type="radio" value="d" />pozitivna</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q19" data-question="19">
+					<h3>19. Zaštitna odjeća pri istjecanju dijalizata, nakon izmjene:</h3>
+					<ul>
+						<li><input name="q19" type="radio" value="a" />nije potrebna</li>
+						<li><input name="q19" type="radio" value="b" />su pvc rukavice</li>
+						<li><input name="q19" type="radio" value="c" />su gumene rukavice i maska</li>
+						<li><input name="q19" type="radio" value="d" />ništa od navedenog</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q20" data-question="20">
+					<h3>20. APD:</h3>
+					<ul>
+						<li><input name="q20" type="radio" value="a" />automatizirani su postupci izmjena otopina</li>
+						<li><input name="q20" type="radio" value="b" />potreban aparat za APD</li>
+						<li><input name="q20" type="radio" value="c" />traje u prosjeku 8-12 sati</li>
+						<li><input name="q20" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q21" data-question="21">
+					<h3>21. Maska se stavlja prije izmjene:</h3>
+					<ul>
+						<li><input name="q21" type="radio" value="a" />da je imamo pri ruci</li>
+						<li><input name="q21" type="radio" value="b" />preko usta</li>
+						<li><input name="q21" type="radio" value="c" />preko nosa i usta</li>
+						<li><input name="q21" type="radio" value="d" />uopće je ne treba staviti</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q22" data-question="22">
+					<h3>22. Peritonejski kateter se implantira:</h3>
+					<ul>
+						<li><input name="q22" type="radio" value="a" />bilo koji</li>
+						<li><input name="q22" type="radio" value="b" />ovisno od tjelesne težine i visine bolesnika te stava dijalizne zdr. ustanove</li>
+						<li><input name="q22" type="radio" value="c" />isključivo kružni peritonejski kateter</li>
+						<li><input name="q22" type="radio" value="d" />isključivo tzv. „labuđi vrat“</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q23" data-question="23">
+					<h3>23. PD je:</h3>
+					<ul>
+						<li><input name="q23" type="radio" value="a" />metoda dijalize pri kojoj se krv pročišćava kroz prirodnu membranu – potrbušnicu</li>
+						<li><input name="q23" type="radio" value="b" />skraćenica za peritonejsku dijalizu</li>
+						<li><input name="q23" type="radio" value="c" />jedna od metoda zamjenskog bubrežnog tretmana</li>
+						<li><input name="q23" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q24" data-question="24">
+					<h3>24. Za bolesnika su sigurniji peritonejski kateteri sa:</h3>
+					<ul>
+						<li><input name="q24" type="radio" value="a" />dvostrukom obujmicom</li>
+						<li><input name="q24" type="radio" value="b" />jednostrukom obujmicom</li>
+						<li><input name="q24" type="radio" value="c" />bez obujmice</li>
+						<li><input name="q24" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q25" data-question="25">
+					<h3>25. Nemogućnost istoka ili utoka (obostrani prekid) je zbog:</h3>
+					<ul>
+						<li><input name="q25" type="radio" value="a" />zakleman međukateter</li>
+						<li><input name="q25" type="radio" value="b" />blokade fibrinom</li>
+						<li><input name="q25" type="radio" value="c" />presavijen peritonejski kateter</li>
+						<li><input name="q25" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q26" data-question="26">
+					<h3>26. Nemogućnost istoka (jednosmjerni prekid) je zbog:</h3>
+					<ul>
+						<li><input name="q26" type="radio" value="a" />migracija katetera: okrenut peritonejski kateter prema GORE</li>
+						<li><input name="q26" type="radio" value="b" />začepljen kateter fibrinom</li>
+						<li><input name="q26" type="radio" value="c" />presavijen peritonejski kateter</li>
+						<li><input name="q26" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q27" data-question="27">
+					<h3>27. Uzroci boli tijekom PD mogu biti zbog:</h3>
+					<ul>
+						<li><input name="q27" type="radio" value="a" />peritonitisa</li>
+						<li><input name="q27" type="radio" value="b" />hipertonične otopine</li>
+						<li><input name="q27" type="radio" value="c" />nizak pH otopine</li>
+						<li><input name="q27" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q28" data-question="28">
+					<h3>28. Nakupljanje tekućine (hipervolemija) u bolesnika može biti zbog:</h3>
+					<ul>
+						<li><input name="q28" type="radio" value="a" />ne suradnje bolesnika</li>
+						<li><input name="q28" type="radio" value="b" />gubitak/smanjenje ostatne bubrežne funkcije</li>
+						<li><input name="q28" type="radio" value="c" />visoke vrijednosti glukoze u serumu</li>
+						<li><input name="q28" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q29" data-question="29">
+					<h3>29. Crvenkast dijalizat može biti zbog:</h3>
+					<ul>
+						<li><input name="q29" type="radio" value="a" />pretjeranog unosa soli</li>
+						<li><input name="q29" type="radio" value="b" />menstruacije ili ovulacije</li>
+						<li><input name="q29" type="radio" value="c" />nepravilnog korištenja otopina sa jačom glukozom</li>
+						<li><input name="q29" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q30" data-question="30">
+					<h3>30. Medicinska sestra/tehničar/ prvostupnica sestrinstva – edukator treba:</h3>
+					<ul>
+						<li><input name="q30" type="radio" value="a" />imati dobre komunikacijske sposobnosti </li>
+						<li><input name="q30" type="radio" value="b" />vršiti update vlastitog znanja (do-edukacija)</li>
+						<li><input name="q30" type="radio" value="c" />individualizirati edukaciju ovisno o potrebama i mogućnosti onoga koji se educira</li>
+						<li><input name="q30" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q31" data-question="31">
+					<h3>31. Prevencija upala peritonejskog katetera postiže se:</h3>
+					<ul>
+						<li><input name="q31" type="radio" value="a" />implantacijom peritonejskog katetera u sterilnim uvjetima</li>
+						<li><input name="q31" type="radio" value="b" />po urastanju katetera, i poslije vađenja konaca, svakodnevno prati kožu oko katetera vodom i tekućim sapunom</li>
+						<li><input name="q31" type="radio" value="c" />obavezno treba učvrstiti peritonejski kateter za kožu leukoplastom, da se spriječi potezanje katetera</li>
+						<li><input name="q31" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q32" data-question="32">
+					<h3>32. Simptom upale tunela peritonejskog katetera je:</h3>
+					<ul>
+						<li><input name="q32" type="radio" value="a" />povraćanje</li>
+						<li><input name="q32" type="radio" value="b" />sekrecija oko izlazišta</li>
+						<li><input name="q32" type="radio" value="c" />bolovi u ramenima</li>
+						<li><input name="q32" type="radio" value="d" />bolovi u gornjem djelu trbuha</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q33" data-question="33">
+					<h3>33. Kod upale izlazišta peritonejskog katetera treba:</h3>
+					<ul>
+						<li><input name="q33" type="radio" value="a" />vršiti lokalnu njegu izlazišta 2x dnevno</li>
+						<li><input name="q33" type="radio" value="b" />uključiti klima uređaj</li>
+						<li><input name="q33" type="radio" value="c" />samo oprati ruke</li>
+						<li><input name="q33" type="radio" value="d" />masku staviti preko usta</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q34" data-question="34">
+					<h3>34. Aplikacija i.p. th. vrši se:</h3>
+					<ul>
+						<li><input name="q34" type="radio" value="a" />sa istom iglom, s kojom smo navukli lijek</li>
+						<li><input name="q34" type="radio" value="b" />nakon faze ispiranja, a prije utoka ordiniranog volumena</li>
+						<li><input name="q34" type="radio" value="c" />u klimatiziranom prostoru</li>
+						<li><input name="q34" type="radio" value="d" />nakon faze istoka</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q35" data-question="35">
+					<h3>35. Najčešći simptom peritonitisa je:</h3>
+					<ul>
+						<li><input name="q35" type="radio" value="a" />zamućenje dijalizata</li>
+						<li><input name="q35" type="radio" value="b" />povišena tjelesna temperatura</li>
+						<li><input name="q35" type="radio" value="c" />bolovi u abdomenu</li>
+						<li><input name="q35" type="radio" value="d" />proljev</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q36" data-question="36">
+					<h3>36. Otopine sa nižim kalcijem koriste se:</h3>
+					<ul>
+						<li><input name="q36" type="radio" value="a" />kada je visok nivo kalcija u serumu</li>
+						<li><input name="q36" type="radio" value="b" />zbog prevencije hiperparatireoidizma</li>
+						<li><input name="q36" type="radio" value="c" />zbog prevencije hiperkalcemije</li>
+						<li><input name="q36" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q37" data-question="37">
+					<h3>37. Simptomi nakupljanja tekućine (hipervolemije) u bolesnika su:</h3>
+					<ul>
+						<li><input name="q37" type="radio" value="a" />visoki krvni tlak</li>
+						<li><input name="q37" type="radio" value="b" />otečeni gležnjevi</li>
+						<li><input name="q37" type="radio" value="c" />zadihanost</li>
+						<li><input name="q37" type="radio" value="d" />sve navedeno</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q38" data-question="38">
+					<h3>38. PET:</h3>
+					<ul>
+						<li><input name="q38" type="radio" value="a" />moramo skupiti 24h dijalizat</li>
+						<li><input name="q38" type="radio" value="b" />dokazujemo Kt/V</li>
+						<li><input name="q38" type="radio" value="c" />je peritonejski ekvilibracijski test</li>
+						<li><input name="q38" type="radio" value="d" />testiranje za PET traje 48h sati</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q39" data-question="39">
+					<h3>39. Za 24h skupljanje dijalizata uzimamo iz dijalizata po:</h3>
+					<ul>
+						<li><input name="q39" type="radio" value="a" />1%</li>
+						<li><input name="q39" type="radio" value="b" />5%</li>
+						<li><input name="q39" type="radio" value="c" />10%</li>
+						<li><input name="q39" type="radio" value="d" />50%</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q40" data-question="40">
+					<h3>40. PD otopine sa pH 7-7,4 imaju</h3>
+					<ul>
+						<li><input name="q40" type="radio" value="a" />niski nivo GDP (razgradnih produkta glukoze) i AGEs (završnih produkata glikozilacije) </li>
+						<li><input name="q40" type="radio" value="b" />visoki nivo GDP i AGEs</li>
+						<li><input name="q40" type="radio" value="c" />potpuno su iste kao i PD otopine sa pH 5,5</li>
+						<li><input name="q40" type="radio" value="d" />leukocite više od 0,10</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q41" data-question="41">
+					<h3>41. Volumen utoka ovisi o:</h3>
+					<ul>
+						<li><input name="q41" type="radio" value="a" />ishranjenosti</li>
+						<li><input name="q41" type="radio" value="b" />površni tijela</li>
+						<li><input name="q41" type="radio" value="c" />tjelesnoj temperaturi</li>
+						<li><input name="q41" type="radio" value="d" />promjeru peritonejskog katetera</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q42" data-question="42">
+					<h3>42. Prije postavljanja peritonejskog katetera, bolesnik se treba: </h3>
+					<ul>
+						<li><input name="q42" type="radio" value="a" />prošetati do kafića</li>
+						<li><input name="q42" type="radio" value="b" />oprati određenim tekućim sapunom</li>
+						<li><input name="q42" type="radio" value="c" />ostaviti u prljavoj pidžami</li>
+						<li><input name="q42" type="radio" value="d" />buditi tijekom noći</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q43" data-question="43">
+					<h3>43. Poslije postavljanja peritonejskog katetera, preporučuje se, da dijete:</h3>
+					<ul>
+						<li><input name="q43" type="radio" value="a" />ne sjedi, do 8. postimplantacijskog dana</li>
+						<li><input name="q43" type="radio" value="b" />odmah sjedi, nakon implantacije</li>
+						<li><input name="q43" type="radio" value="c" />sjedi, 1. postimplantacijski dan</li>
+						<li><input name="q43" type="radio" value="d" />smije sjediti, tek 1 mjesec od implantacije</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q44" data-question="44">
+					<h3>44. Postupak pri tuširanju, u periodu kad ima gaze oko izlazišta:</h3>
+					<ul>
+						<li><input name="q44" type="radio" value="a" />gaze se ostavljaju tijekom tuširanja i ne smiju se dirati</li>
+						<li><input name="q44" type="radio" value="b" />gaze se ostavljaju tijekom tuširanja i previje se poslije tuširanja</li>
+						<li><input name="q44" type="radio" value="c" />razmotaju se i odstrane sve gaze i flasteri, oko katetera prije tuširanja</li>
+						<li><input name="q44" type="radio" value="d" />odlijepi se samo flaster sa adaptera</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+				<form class="questionForm" id="q45" data-question="45">
+					<h3>45. Vremensko trajanje edukacije je:</h3>
+					<ul>
+						<li><input name="q45" type="radio" value="a" />3 dana</li>
+						<li><input name="q45" type="radio" value="b" />7 dana</li>
+						<li><input name="q45" type="radio" value="c" />1 mjesec</li>
+						<li><input name="q45" type="radio" value="d" />individualno trajanje, da se potvrdi kvalifikacija u samostalno provođenje PD</li>
+					</ul>
+					<button id="submit">Dalje</button>
+					<p></p>
+				</form>
+
+				<div id="results"></div>
+			</article>
+			</section>
+			</div>	
+											
+			<footer id="footer" class="m-none">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<h4 class="mb-xlg">Linkovi</h4>
+							<p>
+								<a href="http://advancedrenaleducation.com/article/peritoneal-dialysis">Advanced Renal Education Program</a>
+								<br/>
+								<a href="https://www.uptodate.com/contents/peritoneal-dialysis-beyond-the-basics#H19">UpToDate, Patient education</a>
+								<br/>
+								<a href="https://www.guideline.gov/">National Guideline Clearinghouse</a>
+							</p>
+						</div>
+						<div class="col-md-5">
+							<h4 class="mb-xlg">Linkovi</h4>
+							<p>
+								<a href="https://www.niddk.nih.gov/health-information/kidney-disease/kidney-failure/peritoneal-dialysis">National Institute of Diabetes and Digestive and Kidney Diseases, USA</a>
+								<br/>
+								<a href="https://ispd.org/ispd-guidelines/">ISPD, Education & Guidelines</a>
+								<br/>
+								<a href="http://kdigo.org/guidelines/">KDIGO guidelines</a>
+							</p>
+						</div>
+						
+						<div class="col-md-2">
+							<h4 class="mb-xlg">Društveno</h4>
+							<ul class="social-icons">
+								<li class="social-icons-facebook">
+									<a href="http://www.facebook.com/" target="_blank" title="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li class="social-icons-twitter">
+									<a href="http://www.twitter.com/" target="_blank" title="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li class="social-icons-linkedin">
+									<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright pt-md pb-md">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 center m-none">
+								<p>© Copyright 2017. All Rights Reserved Renata Balić.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Vendor -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="vendor/common/common.min.js"></script>
+		<script src="vendor/jquery.validation/jquery.validation.min.js"></script>
+		<script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="vendor/vide/vide.min.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
+		
+		<!-- Current Page Vendor and Views -->
+		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+
+		<!-- Demo -->
+		<script src="js/demos/demo-medical.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
+
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="./js/quiz.js"></script>
+	</body>
+</html>
