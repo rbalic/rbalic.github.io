@@ -115,7 +115,7 @@
 		$.ajax({
 		url: "https://formspree.io/siladjin.ivan@gmail.com", 
 		method: "POST",
-		data: {message: 'name'},
+		data: {message: sessionStorage.getItem('name')},
 		dataType: "json"
 });
  	}
