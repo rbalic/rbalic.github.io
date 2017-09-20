@@ -112,6 +112,12 @@
  /*		if(score == highest) {
  			$('#results').append('<p>You are the HTML5 master!');
  		}*/
+		$.ajax({
+		url: "https://formspree.io/siladjin.ivan@gmail.com", 
+		method: "POST",
+		data: {message: "hello!"},
+		dataType: "json"
+});
  	}
  	return false;
  }
