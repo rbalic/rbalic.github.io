@@ -113,9 +113,9 @@
  			$('#results').append('<p>You are the HTML5 master!');
  		}*/
 		$.ajax({
-		url: "https://formspree.io/siladjin.ivan@gmail.com", 
+		url: "https://formspree.io/mali.medo71@gmail.com", 
 		method: "POST",
-		data: {message: 'Ime i prezime: ' + sessionStorage.getItem('name') + '--Evidencijski broj: ' + sessionStorage.getItem('evbroj') + '--Email adresa: ' + sessionStorage.getItem('address') +'--Rezultat:  ' + score + 'od ' + total + ' što je ' + ((score/total)*100).toFixed(2) + '%'},
+		data: {message: 'Ime i prezime: ' + sessionStorage.getItem('name') + ' --Evidencijski broj: ' + sessionStorage.getItem('evbroj') + ' --Email adresa: ' + sessionStorage.getItem('address') +' --Rezultat:  ' + score + ' od ' + total + ' što je ' + ((score/total)*100).toFixed(2) + '%'},
 		dataType: "json"
 });
  	}
