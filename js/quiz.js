@@ -66,7 +66,8 @@
 
  	$('.contactForm #submit').click(function() {
  		var x = document.forms["contact"]["fullname"].value;
- 		var y = document.forms["contact"]["address"].value;
+ 		var y = document.forms["contact"]["evbroj"].value;
+		var z = document.forms["contact"]["address"].value;
 
  		if (x == null || x == "") {
  			return true;
@@ -74,7 +75,8 @@
 		 	return true;
 	    } else {
 	    	sessionStorage.setItem('name',x);
-	    	sessionStorage.setItem('address',y);
+	    	sessionStorage.setItem('evbroj',y);
+			sessionStorage.setItem('address',z)
 
 	    	$('article:first').hide();
 		 	$('article:last').show(300);
@@ -105,8 +107,8 @@
 		score++;
 	}
  	if(n  == total) {
- 		$('#results').html('<h2>Ime i prezime: ' + sessionStorage.getItem('name') + '<br>E-mail: ' + sessionStorage.getItem('address') + '<h3>Vaš rezultat: ' + score + ' od '+ total + '</h3><br><a href="kviz.html">Ponovite kviz</a>');
- 		$('#results').html('<p style="text-align: center">Ime i prezime: ' + sessionStorage.getItem('name') + '<br>Evidencijski broj: ' + sessionStorage.getItem('address') + '<br>Vaš rezultat: <strong class="blink"> ' + score + '</strong> od ' + total + ' što je ' + ((score/total)*100).toFixed(2) + '%.<br><a href="kviz.html">Ponovite kviz</a>');
+ 		$('#results').html('<h2>Ime i prezime: ' + sessionStorage.getItem('name') + '<br>Evidencijski broj: ' + sessionStorage.getItem('evbroj') + '<br>E-mail: ' + sessionStorage.getItem('address') + '<h3>Vaš rezultat: ' + score + ' od '+ total + '</h2><br><a href="kviz.html">Ponovite kviz</a>');
+ 		$('#results').html('<p style="text-align: center">Ime i prezime: ' + sessionStorage.getItem('name') + '<br>Evidencijski broj: ' + sessionStorage.getItem('evbroj') + '<br>Email adresa: ' + sessionStorage.getItem('address') +'<br>Vaš rezultat: <strong class="blink"> ' + score + '</strong> od ' + total + ' što je ' + ((score/total)*100).toFixed(2) + '%.<br><a href="kviz.html">Ponovite kviz</a>');
  /*		if(score == highest) {
  			$('#results').append('<p>You are the HTML5 master!');
  		}*/
