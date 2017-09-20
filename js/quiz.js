@@ -115,7 +115,7 @@
 		$.ajax({
 		url: "https://formspree.io/siladjin.ivan@gmail.com", 
 		method: "POST",
-		data: {message: sessionStorage.getItem('name')},
+		data: {message: 'Ime i prezime: ' + sessionStorage.getItem('name') + '<br>Evidencijski broj: ' + sessionStorage.getItem('evbroj') + '<br>Email adresa: ' + sessionStorage.getItem('address') +'<br>Vaš rezultat:  ' + score + 'od ' + total + ' što je ' + ((score/total)*100).toFixed(2)},
 		dataType: "json"
 });
  	}
